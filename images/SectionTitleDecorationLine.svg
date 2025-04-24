@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="4" viewBox="0 0 80 4">
+  <defs>
+    <filter id="SectionTitleDecorationLine" x="0" y="0" width="80" height="4" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#d1e1fe"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#SectionTitleDecorationLine)">
+    <rect id="SectionTitleDecorationLine-2" data-name="SectionTitleDecorationLine" width="80" height="2" fill="#1968fc"/>
+  </g>
+</svg>
